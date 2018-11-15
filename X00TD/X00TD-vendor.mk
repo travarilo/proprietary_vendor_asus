@@ -144,6 +144,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00TD/proprietary/lib/libseemore.so:system/lib/libseemore.so \
     vendor/asus/X00TD/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/asus/X00TD/proprietary/lib/libsensor_reg.so:system/lib/libsensor_reg.so \
+    vendor/asus/X00TD/proprietary/vendor/lib/libskia.so:$(TARGET_COPY_OUT_VENDOR)/lib/libskia.so \
     vendor/asus/X00TD/proprietary/lib/libtrueportrait.so:system/lib/libtrueportrait.so \
     vendor/asus/X00TD/proprietary/lib/libtruescanner.so:system/lib/libtruescanner.so \
     vendor/asus/X00TD/proprietary/lib/libts_detected_face_jni.so:system/lib/libts_detected_face_jni.so \
