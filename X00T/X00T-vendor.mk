@@ -45,7 +45,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/etc/wfdconfig.xml:system/etc/wfdconfig.xml \
     vendor/asus/X00T/proprietary/etc/wfdconfigsink.xml:system/etc/wfdconfigsink.xml \
     vendor/asus/X00T/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
-    vendor/asus/X00T/proprietary/framework/WfdCommon.jar:system/framework/WfdCommon.jar \
     vendor/asus/X00T/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/asus/X00T/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/asus/X00T/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
@@ -73,7 +72,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/libcameraservice.so:system/lib/libcameraservice.so \
     vendor/asus/X00T/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib/com.qualcomm.qti.imscmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.imscmservice@1.1.so \
-    vendor/asus/X00T/proprietary/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
+    vendor/asus/X00T/proprietary/vendor/lib/com.qualcomm.qti.wifidisplayhal@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/asus/X00T/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/asus/X00T/proprietary/vendor/lib/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imscamera.so \
     vendor/asus/X00T/proprietary/vendor/lib/lib-imsvideocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib/lib-imsvideocodec.so \
@@ -119,7 +118,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/libmmcamera_faceproc2.so:system/lib/libmmcamera_faceproc2.so \
     vendor/asus/X00T/proprietary/lib/libmmi.so:system/lib/libmmi.so \
     vendor/asus/X00T/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
-    vendor/asus/X00T/proprietary/lib/libmmparser.so:system/lib/libmmparser.so \
+    vendor/asus/X00T/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
     vendor/asus/X00T/proprietary/lib/libmmparser_lite.so:system/lib/libmmparser_lite.so \
     vendor/asus/X00T/proprietary/lib/liboptizoom.so:system/lib/liboptizoom.so \
     vendor/asus/X00T/proprietary/lib/libqmi_cci_system.so:system/lib/libqmi_cci_system.so \
@@ -172,6 +171,9 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib/libwfduibcsinkinterface.so:system/lib/libwfduibcsinkinterface.so \
     vendor/asus/X00T/proprietary/lib/libwfduibcsrc.so:system/lib/libwfduibcsrc.so \
     vendor/asus/X00T/proprietary/lib/libwfduibcsrcinterface.so:system/lib/libwfduibcsrcinterface.so \
+    vendor/asus/X00T/proprietary/lib/libOmxMux.so:system/lib/libOmxMux.so \
+    vendor/asus/X00T/proprietary/lib/libmmrtpdecoder.so:system/lib/libmmrtpdecoder.so \
+    vendor/asus/X00T/proprietary/lib/libmmrtpencoder.so:system/lib/libmmrtpencoder.so \
     vendor/asus/X00T/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/asus/X00T/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/asus/X00T/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -206,7 +208,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib64/com.qualcomm.qti.dpm.api@1.0.so:system/lib64/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.0.so \
     vendor/asus/X00T/proprietary/vendor/lib64/com.qualcomm.qti.imscmservice@1.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/com.qualcomm.qti.imscmservice@1.1.so \
-    vendor/asus/X00T/proprietary/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so:system/lib64/com.qualcomm.qti.wifidisplayhal@1.0.so \
     vendor/asus/X00T/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/asus/X00T/proprietary/vendor/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imscamera.so \
     vendor/asus/X00T/proprietary/vendor/lib64/lib-imsvideocodec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/lib-imsvideocodec.so \
@@ -254,9 +255,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib64/libmmcamera_faceproc.so:system/lib64/libmmcamera_faceproc.so \
     vendor/asus/X00T/proprietary/lib64/libmmcamera_faceproc2.so:system/lib64/libmmcamera_faceproc2.so \
     vendor/asus/X00T/proprietary/lib64/libmmi.so:system/lib64/libmmi.so \
-    vendor/asus/X00T/proprietary/lib64/libmmosal.so:system/lib64/libmmosal.so \
-    vendor/asus/X00T/proprietary/lib64/libmmparser.so:system/lib64/libmmparser.so \
-    vendor/asus/X00T/proprietary/lib64/libmmparser_lite.so:system/lib64/libmmparser_lite.so \
     vendor/asus/X00T/proprietary/lib64/liboptizoom.so:system/lib64/liboptizoom.so \
     vendor/asus/X00T/proprietary/lib64/libqmi_cci_system.so:system/lib64/libqmi_cci_system.so \
     vendor/asus/X00T/proprietary/lib64/libqti-at.so:system/lib64/libqti-at.so \
@@ -294,6 +292,7 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/lib64/libvr_sam_wrapper.so:system/lib64/libvr_sam_wrapper.so \
     vendor/asus/X00T/proprietary/lib64/libvraudio.so:system/lib64/libvraudio.so \
     vendor/asus/X00T/proprietary/lib64/libwfdavenhancements.so:system/lib64/libwfdavenhancements.so \
+    vendor/asus/X00T/proprietary/lib64/libwfdclient.so:system/lib64/libwfdclient.so \
     vendor/asus/X00T/proprietary/lib64/libwfdcodecv4l2.so:system/lib64/libwfdcodecv4l2.so \
     vendor/asus/X00T/proprietary/lib64/libwfdcommonutils.so:system/lib64/libwfdcommonutils.so \
     vendor/asus/X00T/proprietary/lib64/libwfdconfigutils.so:system/lib64/libwfdconfigutils.so \
@@ -1770,6 +1769,7 @@ PRODUCT_PACKAGES += \
     CallFeaturesSetting \
     QtiTelephonyService \
     WfdService \
+    WfdCommon \
     datastatusnotification \
     embms \
     uceShimService \
