@@ -22,3 +22,9 @@ dex_import {
     owner: "asus",
     jars: ["proprietary/framework/WfdCommon.jar"],
 }
+
+dex_import {
+    name: "qcrilhook",
+    owner: "asus",
+    jars: ["proprietary/framework/qcrilhook.jar"],
+}
