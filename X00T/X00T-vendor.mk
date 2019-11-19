@@ -220,14 +220,6 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Headset_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_Speaker_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/MTP/sdm660-tavil-snd-card/MTP_WCD9340_workspaceFile.qwsp \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
-    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_Bluetooth_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_General_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_Global_cal.acdb \
@@ -236,6 +228,14 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_Headset_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_Speaker_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/NonCE/QRD_NonCE_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/NonCE/QRD_NonCE_workspaceFile.qwsp \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Bluetooth_cal.acdb \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_General_cal.acdb \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Global_cal.acdb \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Handset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Handset_cal.acdb \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Hdmi_cal.acdb \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Headset_cal.acdb \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_Speaker_cal.acdb \
+    vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/QRD_workspaceFile.qwsp:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/QRD_workspaceFile.qwsp \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Bluetooth_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_General_cal.acdb \
     vendor/asus/X00T/proprietary/vendor/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/sdm660-snd-card-skush/QRD_SKUSH_Global_cal.acdb \
@@ -373,8 +373,8 @@ PRODUCT_COPY_FILES += \
     vendor/asus/X00T/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/asus/X00T/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
     vendor/asus/X00T/proprietary/vendor/lib/hw/activity_recognition.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.sdm660.so \
-    vendor/asus/X00T/proprietary/vendor/lib/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm660.so \
     vendor/asus/X00T/proprietary/vendor/lib/hw/android.hardware.keymaster@3.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.keymaster@3.0-impl-qti.so \
+    vendor/asus/X00T/proprietary/vendor/lib/hw/audio.primary.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/audio.primary.sdm660.so \
     vendor/asus/X00T/proprietary/vendor/lib/hw/camera.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/camera.sdm660.so \
     vendor/asus/X00T/proprietary/vendor/lib/hw/keystore.sdm660.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.sdm660.so \
     vendor/asus/X00T/proprietary/vendor/lib/hw/sensors.sdm660_64.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/sensors.sdm660_64.so \
